@@ -14,7 +14,8 @@ section{
 }
 #top{
 background-image: url(wallpaperflare.com_wallpaper.jpg);
-background-size: cover;}
+background-size: cover;
+size: 100%;}
 #ourteam{
     background-color:#33372d;
     padding: 90px;
