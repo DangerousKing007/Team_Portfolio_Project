@@ -9,19 +9,53 @@
 }
 
 section{
-    height: 38rem;
+    height: 38em;
     width: 100%;
 }
 #top{
-background-image: url(./wallpaperflare.com_wallpaper.jpg);}
+background-image: url(wallpaperflare.com_wallpaper.jpg);
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;}
 #ourteam{
-    background-color:aquamarine;
+    background-color:#33372d;
+    padding: 90px;
+    display: flex;
+    position: relative;
+    height: 55 rem;
+    
 }
+
+#about1{
+    height: 150px;
+    width: 600px;
+    border: 5px solid black;
+    border-left: 0px;
+    margin: 0;
+    padding: 30px;
+    padding-left: 55px;
+    left: 155px;
+    position: absolute;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+#photo1{
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 48%;
+    position: absolute;
+}
+
+
 #projects{
-    background-color: #09090a;
+    background-color: #33372d;
 }
 #contactus{
-    background-color: #c75846;
+    background-color: #33372d;
 }
 header {
     position: fixed;
@@ -70,10 +104,10 @@ nav a.active {
 nav a:hover{
     font-size: 22px;
     /* background-color: #09090ad3; */
-    color: #c75846;
+    color: #fefffd;
     nav a.active{
         background-color: #c75846;
-        color: #09090a;
+        color: #fefffd;
     }
 }
 /* nav a:hover:not(:hover){
@@ -140,12 +174,12 @@ nav a:hover{
 }
 @media(max-width:850px){
     .dropdown_menu a{
-        color: #c75846;
+        color: #09090a;
     }
 }
 @media(max-width:527px){
     #Icon i{
-        color: #c75846;
+        color: #09090a;
     }
 }
 @media(max-width:576px){
