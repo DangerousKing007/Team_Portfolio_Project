@@ -15,16 +15,19 @@ section{
 #top{
 background-image: url(wallpaperflare.com_wallpaper.jpg);
 background-size: cover;
-size: 100%;}
+size: 100%;
+}
+
+
 #ourteam{
     background-color:#33372d;
     padding: 90px;
+    height: 55em;
+}
+#person1{
     display: flex;
     position: relative;
-    height: 55 rem;
-    
 }
-
 #about1{
     height: 150px;
     width: 600px;
@@ -32,13 +35,12 @@ size: 100%;}
     border-left: 0px;
     margin: 0;
     padding: 30px;
-    padding-left: 55px;
-    left: 155px;
+    padding-left: 100px;
+    left: 85px;
     position: absolute;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
 }
-
 #photo1{
     padding: 50px;
     height: 150px;
@@ -47,6 +49,90 @@ size: 100%;}
     border-radius: 48%;
     position: absolute;
 }
+
+
+#person2{
+    display: flex;
+    position: relative;
+}
+#about2{
+    height: 150px;
+    width: 600px;
+    border: 5px solid black;
+    border-right: 0px;
+    margin: 0;
+    padding: 30px;
+    padding-right: 100px;
+    right: 85px;
+    position: absolute;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+#photo2{
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 48%;
+    position: absolute;
+    right:0px;
+}
+
+#person3{
+    display: flex;
+    position: relative;
+}
+#about3{
+    height: 150px;
+    width: 600px;
+    border: 5px solid black;
+    border-left: 0px;
+    margin: 0;
+    padding: 30px;
+    padding-left: 100px;
+    left: 85px;
+    position: absolute;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+#photo3{
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 48%;
+    position: absolute;
+}
+
+#person4{
+    display: flex;
+    position: relative;
+}
+#about4{
+    height: 150px;
+    width: 600px;
+    border: 5px solid black;
+    border-right: 0px;
+    margin: 0;
+    padding: 30px;
+    padding-right: 100px;
+    right: 85px;
+    position: absolute;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+#photo4{
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 48%;
+    position: absolute;
+    right:0px;
+}
+
+
+
 
 
 #projects{
