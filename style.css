@@ -143,7 +143,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
  main {
@@ -338,9 +338,9 @@ nav a {
   margin-left: 20px;
   transition: background-color 1s ease 0s,font-size 1s ease 0s,color 0.5s linear 0s;
 }
-nav a.active {
-  /* background-color: #09090ad3; */
-  color: #09090a;
+
+nav a.active{
+  background-color: #fefffd5b;
 }
 nav a:hover{
   font-size: 22px;
@@ -351,9 +351,7 @@ nav a:hover{
       color: #fefffd;
   }
 }
-/* nav a:hover:not(:hover){
-  opacity: 0.4;
-} */
+
 
 #Icon:hover{
   cursor: pointer;

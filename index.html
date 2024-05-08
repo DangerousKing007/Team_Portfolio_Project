@@ -23,7 +23,7 @@
             </div>
         </nav>
         <div class="dropdown_menu">
-            <a class="nav_options" href="#top" class="active">Home</a>
+            <a class="nav_options" href="#top">Home</a>
             <a class="nav_options" href="#projects">Projects</a>
             <a class="nav_options" href="#ourteam">Our Team</a>
             <a class="nav_options" href="#contactus">Contact Us</a>
@@ -34,10 +34,10 @@
     <section id="projects">
         <main>
             <ul class='slider'>
-              <li class='item' style="background-image: url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')">
+              <li class='item' style="background-image: url('Screenshot (249).png')">
                 <div class='content'>
-                  <h2 class='title'>"Lossless Youths"</h2>
-                  <p class='description'> Lorem ipsum, dolor sit amet consectetur
+                  <h2 class='title'style="color: white;">"Lossless Youths"</h2>
+                  <p class='description'style="color: white;"> Lorem ipsum, dolor sit amet consectetur
                   adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
                   praesentium nisi. Id laboriosam ipsam enim.  </p>
                   <button>Read More</button>
@@ -61,10 +61,10 @@
                   <button>Read More</button>
                 </div>
               </li>
-              <li class='item' style="background-image: url('https://images7.alphacoders.com/878/878663.jpg')">
+              <li class='item' style="background-image: url('Screenshot (249).png')">
                 <div class='content'>
-                  <h2 class='title'>"Last Trace Of Us"</h2>
-                  <p class='description'>
+                  <h2 class='title'style="color: white;">"Last Trace Of Us"</h2>
+                  <p class='description'style="color: white;">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
                   </p>
                   <button>Read More</button>
@@ -184,6 +184,7 @@
                 :'fa-solid fa-bars'      
         }
     </script>
+
     <script>
         const slider = document.querySelector('.slider');
 
@@ -195,5 +196,28 @@ function activate(e) {
 
 document.addEventListener('click',activate,false);
     </script>
+    <script>
+      window.addEventListener('scroll', () => {
+          const sections = document.querySelectorAll('section');
+          const navLinks = document.querySelectorAll('.navbar a');
+      
+          let current = '';
+      
+          sections.forEach(section => {
+              const sectionTop = section.offsetTop;
+              const sectionHeight = section.clientHeight;
+              if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                  current = section.getAttribute('id');
+              }
+          });
+      
+          navLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.href.includes(current)) {
+                  link.classList.add('active');
+              }
+          });
+      });
+      </script>
 </body>
 </html>
