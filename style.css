@@ -258,7 +258,7 @@ border-right: 0px;
 margin: 0;
 padding: 30px;
 padding-right: 80px;
-right: 160px;
+right: 85px;
 position: absolute;
 border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
@@ -270,7 +270,7 @@ width: 150px;
 border: 5px solid black;
 border-radius: 48%;
 position: absolute;
-right: 75px;
+right: 0px;
 }
 
 
@@ -286,6 +286,40 @@ right: 75px;
 .team-member.visible {
   opacity: 1;
   transform: translateY(0) scale(1); 
+}
+
+/* Responsive About Us */
+@media (width<1200px) {
+  #ourteam{
+    line-height: 30px;
+  }  
+}
+@media (width<650px) {
+  #team-members{
+    size: 10px;
+  }  
+}
+@media (width<650px) and (width>300px){
+  #photo1,#photo3{
+    left:0px;
+    height: 5px;
+    width:5px;
+  }
+#about1,#about3{
+  height: 110px;
+  left: 60px;
+ width: 220px; 
+}
+#photo2,#photo4{
+  right:0px;
+  height: 5px;
+  width:5px;
+}
+#about2,#about4{
+height: 110px;
+right: 60px;
+width: 220px; 
+}
 }
 
 
@@ -336,9 +370,9 @@ body {
   }
 
   &:nth-child(3) { left: 50%; }
-  &:nth-child(4) { left: calc(50% + 220px); }
-  &:nth-child(5) { left: calc(50% + 440px); }
-  &:nth-child(6) { left: calc(50% + 660px); opacity: 0; }
+  &:nth-child(4) { left: calc(50% + 210px); }
+  &:nth-child(5) { left: calc(50% + 420px); }
+  &:nth-child(6) { left: calc(50% + 630px); opacity: 0; }
 }
 
 .content {
