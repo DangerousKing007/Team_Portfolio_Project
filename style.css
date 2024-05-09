@@ -83,7 +83,7 @@ nav a {
   border-radius: 10px;
   padding: 10px;
   font-size: 22px;
-  color: #09090a;
+  color: whitesmoke;
   text-decoration: none;
   /* text-decoration: underline;
   text-underline-offset: 5px; */
@@ -191,9 +191,10 @@ section{
   width: 100%;
 }
 #top{
-background-image: url(wallpaperflare.com_wallpaper.jpg);
+background-image: url(https://wallpapers.com/images/high/black-galaxy-glowing-earth-eo77rcgn6knba9f6.webp);
 background-size: cover;
 size: 100%;
+
 }
 
 
@@ -214,7 +215,7 @@ size: 100%;
 #about1{
   height: 180px;
   width: 450px;
-  border: 5px solid black;
+  border: 5px solid aliceblue;
   border-left: 0px;
   margin: 0;
   padding: 30px;
@@ -247,8 +248,11 @@ size: 100%;
 .social1,.social2,.social3,.social4 a:hover{
   transform: translateY(-8px);
 }
-
+i{
+  color: antiquewhite;
+}
  #aboutme1{
+  color: antiquewhite;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-align:start;
@@ -267,7 +271,7 @@ size: 100%;
   padding: 50px;
   height: 180px;
   width: 170px;
-  border: 5px solid black;
+  border: 5px solid whitesmoke;
   border-radius: 48%;
   position: absolute;
 }
@@ -280,7 +284,7 @@ size: 100%;
 #about2{
   height: 190px;
   width: 465px;
-  border: 5px solid black;
+  border: 5px solid aliceblue;
   border-right: 0px;
   margin: 0;
   padding: 30px;
@@ -295,6 +299,7 @@ size: 100%;
 
 
 #aboutme2{
+  color: antiquewhite;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 20px;
@@ -314,7 +319,7 @@ size: 100%;
   padding: 50px;
   height: 190px;
   width: 170px;
-  border: 5px solid black;
+  border: 5px solid whitesmoke;
   border-radius: 48%;
   position: absolute;
   right:0px;
@@ -328,7 +333,7 @@ size: 100%;
 #about3{
   height: 180px;
   width: 450px;
-  border: 5px solid black;
+  border: 5px solid aliceblue;
   border-left: 0px;
   margin: 0;
   padding: 30px;
@@ -345,6 +350,7 @@ size: 100%;
 
 
 #aboutme3{
+  color: antiquewhite;
   font-family: "Montserrat", sans-serif;
   line-height: 20px;
   font-weight: bold;
@@ -366,7 +372,7 @@ size: 100%;
   padding: 50px;
   height: 180px;
   width: 170px;
-  border: 5px solid black;
+  border: 5px solid whitesmoke;
   border-radius: 48%;
   position: absolute;
 }
@@ -379,7 +385,7 @@ position: relative;
 #about4{
 height: 190px;
 width: 450px;
-border: 5px solid black;
+border: 5px solid aliceblue;
 border-right: 0px;
 margin: 0;
 padding: 30px;
@@ -392,6 +398,7 @@ border-bottom-left-radius: 60px;
 }
 
 #aboutme4{
+  color: antiquewhite;
   font-family: "Montserrat", sans-serif;
   line-height: 20px;
   font-weight: bold;
@@ -412,7 +419,7 @@ border-bottom-left-radius: 60px;
 padding: 50px;
 height: 190px;
 width: 170px;
-border: 5px solid black;
+border: 5px solid whitesmoke;
 border-radius: 48%;
 position: absolute;
 right: 0px;
