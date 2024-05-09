@@ -138,7 +138,7 @@ scaleHandler();
 $(window).scrollTop($(window).height());
 $(window).scrollLeft($(window).width()/2);
 
-var timerId;
+var timerId=null;
 var $mercuryContainer = $('.mercury_container').eq(0);
 var mercuryX = width/2 - mercuryContainer.offsetWidth /2;
 var mercuryY = height/2 - mercuryContainer.offsetHeight /2;
@@ -239,9 +239,13 @@ function spacePosition(){
   neptuneContainer.style.left = (width/2 - neptuneContainer.offsetWidth /2 + Rneptune ) + 'px';
 }
 var start =  document.getElementById('start');
-start.onclick = function(){
-	timerId = setInterval(move, 20);
+start.onclick = function() {
+    if (timerId) {
+        clearInterval(timerId);
+    }
+    timerId = setInterval(move, 20);
 };
+
 var stop =  document.getElementById('stop');
 stop.onclick = function(){
 	clearInterval(timerId);
@@ -470,6 +474,5 @@ $(document).ready(function(){
   start.click();
 });
 	</script>
-	<script type="text/javascript" src="Solar-script.js"></script>
 	</body>
 </html>

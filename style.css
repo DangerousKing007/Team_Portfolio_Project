@@ -10,6 +10,49 @@
 }
 
 
+
+
+/* Importing the font for About Us page */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Styling for homepage text */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.Mainheader {
+  text-align: center;
+  padding: 100px 0;
+  color: #333;
+}
+
+.Mainheader h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.Mainheader p {
+  font-size: 1.2rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Animation on page load */
+.Mainheader h1, .Mainheader p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 /* Navbar Main */
 
 
@@ -169,7 +212,7 @@ size: 100%;
   position: relative;
 }
 #about1{
-  height: 140px;
+  height: 180px;
   width: 450px;
   border: 5px solid black;
   border-left: 0px;
@@ -180,11 +223,50 @@ size: 100%;
   position: absolute;
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
+  /* display:flex; */
 }
+
+.social1,.social2,.social3,.social4{
+    display:flex;
+    justify-content:center;
+    align-items: end;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: all 0.4s ease;
+    
+}
+.social1,.social2,.social3,.social4 a:hover{
+  transform: translateY(-8px);
+}
+
+ #aboutme1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align:start;
+  line-height:20px;
+  font-size: 17px;
+  display: block;
+  word-break:keep-all;
+  width:100%;
+  padding: 2px;
+  box-sizing:border-box;
+  font-style: italic;
+}
+
+
 #photo1{
   padding: 50px;
-  height: 140px;
-  width: 150px;
+  height: 180px;
+  width: 170px;
   border: 5px solid black;
   border-radius: 48%;
   position: absolute;
@@ -196,22 +278,42 @@ size: 100%;
   position: relative;
 }
 #about2{
-  height: 140px;
-  width: 450px;
+  height: 190px;
+  width: 465px;
   border: 5px solid black;
   border-right: 0px;
   margin: 0;
   padding: 30px;
+  padding-top: 25px;
   padding-right: 100px;
   right: 85px;
   position: absolute;
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
 }
+
+
+
+#aboutme2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  text-align:left;
+  font-size: 17px;
+  display: block;
+  word-break:keep-all;
+  text-wrap:balance;
+  width:100%;
+  padding: 0px;
+  margin-left: 1px;
+  margin-top:1px;
+  box-sizing:border-box;
+  font-style: italic;
+}
 #photo2{
   padding: 50px;
-  height: 140px;
-  width: 150px;
+  height: 190px;
+  width: 170px;
   border: 5px solid black;
   border-radius: 48%;
   position: absolute;
@@ -224,22 +326,46 @@ size: 100%;
   position: relative;
 }
 #about3{
-  height: 140px;
+  height: 180px;
   width: 450px;
   border: 5px solid black;
   border-left: 0px;
   margin: 0;
   padding: 30px;
+  padding-top: 20px;
   padding-left: 100px;
   left: 85px;
   position: absolute;
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
 }
+
+
+
+
+
+#aboutme3{
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+  text-align:left;
+  font-size: 17px;
+  display: block;
+  word-break:keep-all;
+  text-wrap:balance;
+  width:100%;
+  padding: 0px;
+  margin-left: 1px;
+  margin-top:1px;
+  box-sizing:border-box;
+  font-style: italic;
+}
+
+
 #photo3{
   padding: 50px;
-  height: 140px;
-  width: 150px;
+  height: 180px;
+  width: 170px;
   border: 5px solid black;
   border-radius: 48%;
   position: absolute;
@@ -251,22 +377,41 @@ display: flex;
 position: relative;
 }
 #about4{
-height: 140px;
+height: 190px;
 width: 450px;
 border: 5px solid black;
 border-right: 0px;
 margin: 0;
 padding: 30px;
+padding-top: 20px;
 padding-right: 80px;
 right: 85px;
 position: absolute;
 border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
+
+#aboutme4{
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+  text-align:left;
+  font-size: 17px;
+  display: block;
+  word-break:keep-all;
+  text-wrap:balance;
+  width:100%;
+  padding: 0px;
+  margin-left: 1px;
+  margin-top:1px;
+  box-sizing:border-box;
+  font-style: italic;
+}
+
 #photo4{
 padding: 50px;
-height: 140px;
-width: 150px;
+height: 190px;
+width: 170px;
 border: 5px solid black;
 border-radius: 48%;
 position: absolute;
@@ -491,5 +636,3 @@ body {
 #contactus{
   background-color: #33372d;
 }
-
-
